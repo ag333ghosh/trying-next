@@ -1,36 +1,4 @@
-// import Link from "next/link";
-// export default function posts() {
 
-//   const posts = [
-//     { id: 1, name: "Sumit Mandal", post: "Something random 1" },
-//     { id: 2, name: "Amit Sharma", post: "Just another post" },
-//     { id: 3, name: "Priya Mehra", post: "Random thoughts here" },
-//     { id: 4, name: "Ravi Kumar", post: "Learning Next.js is fun!" },
-//     { id: 5, name: "Neha Jain", post: "Coffee and code ☕" },
-//     { id: 6, name: "Ali Khan", post: "React hooks are awesome!" },
-//     { id: 7, name: "Tina Roy", post: "Monday motivation 💪" },
-//     { id: 8, name: "Vikram Joshi", post: "Working on my portfolio" },
-//     { id: 9, name: "Sara Ali", post: "Looking for a dev job 👀" },
-//     { id: 10, name: "Mohit Verma", post: "Chilling with friends" }
-//   ];
-
-
-//   return (
-//     <div>
-//       <h1 className="text-center text-3xl text-green-500 ">Posts...</h1>
-//       {
-//         posts.map((post) => {
-//           return (
-//             <div>
-//               <h1>{post.post}</h1>
-//               <Link href={`/posts/${post.id}?name=${post.name}`}>visit</Link>
-//             </div>
-//           )
-//         })
-//       }
-//     </div>
-//   );
-// }
 
 import Link from "next/link";
 
